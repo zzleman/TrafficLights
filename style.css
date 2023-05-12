@@ -18,12 +18,12 @@ body{
     opacity: .3;
     border: 1px solid white;
 }
-#green{
-    background-color: green;
+#red{
+    background-color: red;
 }
 #yellow{
     background-color: yellow;
 }
-#red{
-    background-color: red;
+#green{
+    background-color: green;
 }

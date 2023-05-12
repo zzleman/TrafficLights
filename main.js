@@ -3,7 +3,7 @@ function startLights () {
     let red=document.querySelector("#red");
     let yellow=document.querySelector("#yellow");
  
-    green.style.opacity=1;
+    red.style.opacity=1;
     setTimeout(() => {
         green.style.opacity=.2;
         red.style.opacity=.2;
@@ -11,14 +11,14 @@ function startLights () {
     },15000);
  
     setTimeout(() => {
-        green.style.opacity=.2;
-        red.style.opacity=1;
+        red.style.opacity=.2;
+        green.style.opacity=1;
         yellow.style.opacity=.2;
     },17000);
  
     setTimeout(() =>  {
-        green.style.opacity=1;
-        red.style.opacity=.2;
+        red.style.opacity=1;
+        green.style.opacity=.2;
         yellow.style.opacity=.2;
     },27000);
 }
