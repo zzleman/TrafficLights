@@ -8,13 +8,13 @@ function startLights () {
         green.style.opacity=.2;
         red.style.opacity=.2;
         yellow.style.opacity=1;
-    },15000);
+    },10000);
  
     setTimeout(() => {
         red.style.opacity=.2;
         green.style.opacity=1;
         yellow.style.opacity=.2;
-    },17000);
+    },12000);
  
     setTimeout(() =>  {
         red.style.opacity=1;
