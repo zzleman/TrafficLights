@@ -1,0 +1,29 @@
+body{
+    background: url(/the-taxi-is-searching-in-the-streets-free-video.jpg) no-repeat;
+    background-size: cover;
+}
+.traffic-signal{
+    border: 8px solid black;
+    background-color: black;
+    padding: 10px 3px;
+    width: 75px;
+    border-radius: 50px;
+    margin-top: 260px;
+    margin-left: 70px;
+}
+.traffic-signal > div{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+    opacity: .3;
+    border: 1px solid white;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
